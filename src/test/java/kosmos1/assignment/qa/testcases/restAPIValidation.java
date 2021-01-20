@@ -26,13 +26,13 @@ public class restAPIValidation extends TestBase {
 		requestspecification = given();
 	}
 		
-	@Test
+	@Test(priority=2)
 	public void Testcase(){
 		
 		requestspecification.get(resource).then().statusCode(200).log().all();
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void TestcaseEULA(){
 		
 		Response response = requestspecification.contentType(ContentType.JSON).request(Method.GET, path + param);

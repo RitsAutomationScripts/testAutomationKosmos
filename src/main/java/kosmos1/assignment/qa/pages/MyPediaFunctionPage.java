@@ -100,7 +100,7 @@ public class MyPediaFunctionPage extends TestBase{
 		
 		lang.get(1).click();
 
-		waitForElement(1);
+		waitForElement(5);
 		if (cont.getText().equalsIgnoreCase("अग्रसर रहें")) {
 			System.out.println("Hindi lang for DD is validated");
 		} else {

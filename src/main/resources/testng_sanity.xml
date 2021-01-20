@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Kosmos1">
+	<test name="MyPedia UI and API Validation">
+		<classes>
+			<class name="kosmos1.assignment.qa.testcases.MyPediaUITest"></class>
+			<class name="kosmos1.assignment.qa.testcases.restAPIValidation"></class>
+		</classes>
+	</test>
+</suite>
